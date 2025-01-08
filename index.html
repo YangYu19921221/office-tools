@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>办公工具集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>办公工具集</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="搜索工具...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </header>
+        
+        <main class="card-grid">
+            <div class="card" data-tool="converter">
+                <div class="card-icon">
+                    <i class="fas fa-file-export"></i>
+                </div>
+                <h2>文档转换工具</h2>
+                <p>支持Word、PDF、PPT等多种格式之间的转换</p>
+                <button class="card-button">开始使用</button>
+            </div>
+
+            <div class="card" data-tool="analyzer">
+                <div class="card-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h2>内容分析工具</h2>
+                <p>智能分析文档内容，提取关键信息</p>
+                <button class="card-button">开始使用</button>
+            </div>
+
+            <div class="card" data-tool="excel">
+                <div class="card-icon">
+                    <i class="fas fa-table"></i>
+                </div>
+                <h2>表格处理工具</h2>
+                <p>Excel数据处理与分析</p>
+                <button class="card-button">开始使用</button>
+            </div>
+
+            <div class="card" data-tool="ocr">
+                <div class="card-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h2>OCR文字识别</h2>
+                <p>图片转文字，支持多种语言</p>
+                <button class="card-button">开始使用</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
