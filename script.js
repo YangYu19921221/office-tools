@@ -39,8 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function handleToolClick(tool) {
     switch(tool) {
         case 'converter':
-            alert('打开文档转换工具');
-            // window.location.href = '/converter.html';
+            window.location.href = '/converter.html';
             break;
         case 'analyzer':
             alert('打开内容分析工具');
